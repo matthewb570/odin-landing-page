@@ -120,17 +120,35 @@ body {
     font-weight: 900;
 }
 
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 50px 200px;
+    border-radius: 15px;
+}
+
+.action-header {
+    font-size: 24px;
+    font-weight: 900;
+}
+
 a {
     text-decoration: none;
 }
 
 button {
-    padding: 8px 24px;
+    padding: 8px 32px;
     margin-top: 8px;
     background-color: #3882F6;   
     border-style: none;
     border-radius: 5px;
     font-weight: bold;
+}
+
+.action-container > button {
+    border-style: solid;
+    border-color: #F9FAF8;
 }
 
 .primary-text {
