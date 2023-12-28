@@ -26,8 +26,6 @@ body {
     gap: 24px;
 }
 
-
-
 .content {
     display: flex;
     flex-direction: column;
@@ -64,6 +62,46 @@ body {
     height: 250px;
 }
 
+.subsection-2 {
+    padding-top: 50px;
+}
+
+.subsection-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 175px;
+}
+
+.card-image {
+    height: 169px;
+    width: 169px;
+    border: 3px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.card-description {
+    color: #717375;
+    font-size: 18px;
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }
@@ -79,6 +117,12 @@ button {
 
 .primary-text {
     color: #F9FAF8;
+}
+
+.primary-text-black {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .secondary-text {
